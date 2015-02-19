@@ -4,7 +4,7 @@ This image contains the gems: [rye](https://github.com/delano/rye), [thor](https
 
 ### Usage
 
-With this you are capable of run things like this:
+With this you are capable of execute scripts like this:
 
 ``` shell
 $ cat test.rb
@@ -19,7 +19,6 @@ Or something more interesting:
 ``` shell
 $ cat test.rb
 require("rye")
-
 puts Rye.shell(:echo, "Hello Docker Container!").stdout
 
 $ docker run --rm -v $PWD:/data robertogyn19/ruby-script-tools ruby /data/test.rb
