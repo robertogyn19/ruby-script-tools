@@ -1,6 +1,11 @@
 ## Ruby script tools
 
-This image contains the gems: [rye](https://github.com/delano/rye), [thor](https://github.com/erikhuda/thor) and [command](https://github.com/tj/commander).
+This image contains some gems:
+
+* [rye](https://github.com/delano/rye)
+* [thor](https://github.com/erikhuda/thor)
+* [command](https://github.com/tj/commander)
+* [colorize](https://github.com/fazibear/colorize)
 
 ### Usage
 

@@ -3,4 +3,9 @@ MAINTAINER Roberto Rodrigues Junior "robertogyn19@gmail.com"
 ENV REFRESHED_AT 2015-02-19
 ENV LANG C.UTF-8
 
-RUN gem install rye thor commander -N
+RUN gem install               \
+                colorize      \
+                commander     \
+                rye           \
+                thor          \
+                -N
