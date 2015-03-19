@@ -6,6 +6,7 @@ ENV LANG C.UTF-8
 RUN gem install               \
                 colorize      \
                 commander     \
+                redis         \
                 rye           \
                 thor          \
                 -N
